@@ -1,1 +1,0 @@
-# SKYO LIFESTYLE Online Shop
