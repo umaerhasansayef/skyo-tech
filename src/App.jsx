@@ -1,19 +1,19 @@
 export default function App() {
   const products = [
     {
-      name: "Gaming Headphone",
-      price: "৳2499",
+      name: "Skyo Start T Shirt",
+      price: "৳500",
     },
     {
-      name: "Smart Watch",
-      price: "৳3999",
+      name: "Arabian Panjabi",
+      price: "৳999",
     },
     {
-      name: "RGB Keyboard",
-      price: "৳1999",
+      name: "Turkish Hijab",
+      price: "৳199",
     },
     {
-      name: "Wireless Mouse",
+      name: "Iconic Shoes",
       price: "৳1299",
     },
   ];
@@ -23,9 +23,9 @@ export default function App() {
       <header className="border-b sticky top-0 bg-white">
         <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-bold">SKYO TECH</h1>
+            <h1 className="text-3xl font-bold">SKYO FASHION</h1>
             <p className="text-gray-500 text-sm">
-              Premium Online Tech Shop
+              Premium Online Fashion Shop
             </p>
           </div>
 
