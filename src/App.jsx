@@ -1,13 +1,14 @@
 import React from "react";
-import logo from './assets/logo.png'
+import logo from "./assets/logo.png";
+
 function App() {
 
   const products = [
     {
       name: "Premium Panjabi",
-      price: "৳2000",
-      image:   
-         "https://images.unsplash.com/photo-1593032465171-8bd6d6bdfb40?q=80&w=1200&auto=format&fit=crop",
+      price: "৳2490",
+      image:
+        "https://images.unsplash.com/photo-1593032465171-8bd6b6dbfb40?q=80&w=1200&auto=format&fit=crop",
     },
 
     {
@@ -36,40 +37,41 @@ function App() {
     <div className="min-h-screen bg-white text-black">
 
       {/* Navbar */}
-
       <header className="sticky top-0 bg-white border-b z-50">
+
         <div className="max-w-7xl mx-auto px-5 py-4 flex justify-between items-center">
-<div className="flex items-center gap-3">
-  <img
-    src={logo}
-    alt="logo"
-    className="w-12 h-12 rounded-full"
-  />
 
-  <div>
-    <h1 className="text-3xl font-bold">
-      SKYO FASHION
-    </h1>
+          {/* Logo + Name */}
+          <div className="flex items-center gap-3">
 
-    <p className="text-gray-500 text-sm">
-      Premium Fashion Store
-    </p>
-  </div>
-</div>
-          
+            <img
+              src={logo}
+              alt="logo"
+              className="w-12 h-12 rounded-full"
+            />
 
-          <div className="flex gap-3">
+            <div>
+              <h1 className="text-3xl font-bold">
+                SKYO FASHION
+              </h1>
 
-            <button className="bg-black text-white px-5 py-2 rounded-xl">
-              Cart
-            </button>
+              <p className="text-gray-500 text-sm">
+                Premium Fashion Store
+              </p>
+            </div>
 
           </div>
+
+          {/* Cart */}
+          <button className="bg-black text-white px-5 py-2 rounded-xl">
+            Cart
+          </button>
+
         </div>
+
       </header>
 
       {/* Hero Section */}
-
       <section className="max-w-7xl mx-auto px-5 py-14 grid md:grid-cols-2 gap-10 items-center">
 
         <div>
@@ -79,7 +81,7 @@ function App() {
           </span>
 
           <h2 className="text-5xl font-bold mt-6 leading-tight">
-            Upgrade Your Style With SKYO
+            Upgrade Your Style With Skyo
           </h2>
 
           <p className="text-gray-600 mt-6 text-lg">
@@ -101,7 +103,6 @@ function App() {
       </section>
 
       {/* Products */}
-
       <section className="bg-gray-100 py-16">
 
         <div className="max-w-7xl mx-auto px-5">
@@ -121,6 +122,7 @@ function App() {
 
                 <img
                   src={product.image}
+                  alt={product.name}
                   className="h-52 w-full object-cover"
                 />
 
@@ -151,7 +153,6 @@ function App() {
       </section>
 
       {/* Footer */}
-
       <footer className="bg-black text-white py-10">
 
         <div className="max-w-7xl mx-auto px-5 text-center">
