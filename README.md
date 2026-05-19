@@ -1,1 +1,1 @@
-# SKYO TECH Online Shop
+# SKYO LIFESTYLE Online Shop
