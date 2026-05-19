@@ -38,15 +38,15 @@ export default function App() {
       <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <span className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm">
-            Modern Electronics
+            Modern Fashion
           </span>
 
           <h2 className="text-5xl font-black leading-tight mt-6">
-            Upgrade Your Tech Lifestyle
+            Upgrade Your Lifestyle
           </h2>
 
           <p className="mt-6 text-gray-600 text-lg">
-            Discover premium gadgets, gaming accessories and smart electronics.
+            SKYO FASHION,স্মার্ট মানুষের স্মার্ট পছন্দ.
           </p>
 
           <button className="mt-8 bg-blue-600 text-white px-8 py-4 rounded-2xl">
