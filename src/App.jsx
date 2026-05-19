@@ -6,8 +6,8 @@ function App() {
     {
       name: "Premium Panjabi",
       price: "৳2490",
-      image:
-"https://images.unsplash.com/photo-1593032465171-8bd6d6bdfb40?q=80&w=1200&auto=format&fit=crop",
+      image:   
+         "https://images.unsplash.com/photo-1593032465171-8bd6d6bdfb40?q=80&w=1200&auto=format&fit=crop",
     },
 
     {
